@@ -32,3 +32,7 @@ nnoremap <C-J> <C-W><C-J> " Ctrl-J to move down a split
 nnoremap <C-K> <C-W><C-K> " Ctrl-K to move up a split
 nnoremap <C-L> <C-W><C-L> " Ctrl-L to move right a split
 nnoremap <C-H> <C-W><C-H> " Ctrl-H to move left a split
+
+" Run mocha tests for current test file
+map ,t :w\|:!mocha %
+map <Return><Return> i<Return><Esc>
