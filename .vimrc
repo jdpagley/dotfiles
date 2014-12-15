@@ -35,4 +35,6 @@ nnoremap <C-H> <C-W><C-H> " Ctrl-H to move left a split
 
 " Run mocha tests for current test file
 map ,t :w\|:!mocha %
+
+" Split current line onto new line
 map <Return><Return> i<Return><Esc>
