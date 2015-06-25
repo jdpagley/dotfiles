@@ -31,14 +31,20 @@ set softtabstop=2
 noremap oo o<Esc>
 noremap OO O<Esc>
 
-" Quick jumping between splits
+" Splits 
 nnoremap <C-J> <C-W><C-J> " Ctrl-J to move down a split
 nnoremap <C-K> <C-W><C-K> " Ctrl-K to move up a split
 nnoremap <C-L> <C-W><C-L> " Ctrl-L to move right a split
 nnoremap <C-H> <C-W><C-H> " Ctrl-H to move left a split
+
+set splitbelow
+set splitright
 
 " Run mocha tests for current test file
 map ,t :w\|:!mocha %
 
 " Split current line onto new line
 map <Return><Return> i<Return><Esc>
+
+" Colorscheme
+colorscheme aloe

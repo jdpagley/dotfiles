@@ -4,3 +4,15 @@
 [submodule ".vim/bundle/ctrlp"]
 	path = .vim/bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/editorconfig"]
+	path = .vim/bundle/editorconfig
+	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule ".vim/bundle/json"]
+	path = .vim/bundle/json
+	url = git@github.com:elzr/vim-json.git
+[submodule ".vim/bundle/jade"]
+	path = .vim/bundle/jade
+	url = git@github.com:digitaltoad/vim-jade.git
+[submodule ".vim/bundle/rename"]
+	path = .vim/bundle/rename
+	url = git@github.com:danro/rename.vim.git

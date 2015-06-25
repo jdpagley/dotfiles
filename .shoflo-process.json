@@ -1,0 +1,61 @@
+{
+  "projectPath": "/Users/admin/Documents/ShoFlo",
+  
+  "envs": {
+    "front": [
+      {
+        "cmd": "node",
+        "dir": "api.shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "node",
+        "dir": "billing.shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "node",
+        "dir": "events.shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "node",
+        "dir": "shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "gulp",
+        "dir": "nucleus",
+        "arg": "serve"
+      },
+      {
+        "cmd": "gulp",
+        "dir": "css",
+        "arg": "serve"
+      }
+    ],
+
+    "fosho": [
+      {
+        "cmd": "node",
+        "dir": "api.shoflo.tv",
+        "arg": "app.js"
+      }, 
+      {
+        "cmd": "node",
+        "dir": "billing.shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "node",
+        "dir": "fosho.shoflo.tv",
+        "arg": "app.js"
+      },
+      {
+        "cmd": "node",
+        "dir": "data",
+        "arg": "app.js"
+      }
+    ]
+  }
+}

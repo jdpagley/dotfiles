@@ -2,22 +2,41 @@
   
   # `git remote prune origin`: remove remote-tracking branches that were deleted from the remote repo
   
+  # General
+  s = status 
+  ci = commit
 
+  pu = push
+  pl = pull
+
+  a = add
+  aa = add --all
+
+  di = diff
+  dic = diff --cached
+
+  co = checkout
 [user]
 	name = Josh Pagley
 	email = jdpagley@gmail.com
+
 [color]
 	ui = true
+
 [push]
 	default = matching
+
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+
 [core]
 	excludesfile = /Users/admin/.gitignore_global
+
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
+
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
