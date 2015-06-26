@@ -1,42 +1,39 @@
-[alias]
-  
-  # `git remote prune origin`: remove remote-tracking branches that were deleted from the remote repo
-  
-  # General
-  s = status 
-  ci = commit
 
-  pu = push
-  pl = pull
+#
+# Josh Pagley :)
+#
+# Find more information about the specifics of each section ([user], [alias], etc.) and a list of 
+# more customizable sections at ftp://www.kernel.org/pub/software/scm/git/docs/git-config.html
+# 
 
-  a = add
-  aa = add --all
-
-  di = diff
-  dic = diff --cached
-
-  co = checkout
 [user]
+
 	name = Josh Pagley
-	email = jdpagley@gmail.com
+	email = jdpagley@yahoo.com
+
+[alias]
+
+	co = checkout
+	pl = pull
+	pu = push
+	puo = push origin
+	s = status
+	a = add
+	aa = add --all
+	ci = commit
+	di = diff
+	dic = diff --cached
 
 [color]
-	ui = true
 
-[push]
-	default = matching
+  #ui = true
 
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+
+  #clean = git-media-clean %f
+  #smudge = git-media-smudge %f
 
 [core]
-	excludesfile = /Users/admin/.gitignore_global
 
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  excludesfile = ~/Users/Josh/.gitignore
 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true

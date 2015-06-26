@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/admin/Documents/Projects/zionconnect/ZC-ChurchPortal/public/app'
 let g:netrw_dirhist_2='/Users/admin/Documents/Projects/zionconnect/ZC-ChurchPortal/public/app/controllers'
 let g:netrw_dirhist_3='/Users/admin/Documents/ShoFlo/api.v2/tests/routes'
 let g:netrw_dirhist_4='/Users/admin/Documents/ShoFlo/api.shoflo.tv/models'
 let g:netrw_dirhist_5='/Users/admin/Documents/ShoFlo/api.shoflo.tv/controllers'
+let g:netrw_dirhist_6='/Users/Josh/dotfiles/.git'
+let g:netrw_dirhist_7='/Users/Josh/dotfiles/.vim/colors'
+let g:netrw_dirhist_8='/Users/Josh/dotfiles'

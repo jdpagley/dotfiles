@@ -47,7 +47,7 @@ hi Delimiter guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE
 hi Statement guifg=#51c86d guibg=NONE guisp=NONE gui=bold ctermfg=78 ctermbg=NONE cterm=bold
 hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 "hi EnumerationValue -- no settings --
-hi Comment guifg=#555555 guibg=NONE guisp=NONE gui=italic ctermfg=240 ctermbg=NONE cterm=NONE
+hi Comment guifg=#7E7B7B guibg=NONE guisp=NONE gui=italic ctermfg=240 ctermbg=NONE cterm=NONE
 hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Number guifg=#36bade guibg=NONE guisp=NONE gui=NONE ctermfg=74 ctermbg=NONE cterm=NONE
