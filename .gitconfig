@@ -35,5 +35,5 @@
 
 [core]
 
-  excludesfile = ~/Users/Josh/.gitignore
+  excludesfile = ~/.gitignore
 
