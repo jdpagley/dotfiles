@@ -1,13 +1,22 @@
-Intstallation:
+### Dotfiles Intstallation:
 
-    cd ~
-    git clone git://github.com/jdpagley/dotfiles
+  **Step 1:** `cd ~`
+  **Step 2:** `git clone git://github.com/jdpagley/dotfiles`
 
-Create symlinks
+### Create symlinks
 
-  ln -s ~/dotfiles/.vimrc ~/.vimrc
-  ln -s ~/dotfiles/.vim ~/.vim
-  ln -s ~/dotfiles/.gitconfig ~/.gitconfig
-  ln -s ~/dotfiles/.gitignore ~/.gitignore
-  ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+  `ln -s ~/dotfiles/.vimrc ~/.vimrci`
+  `ln -s ~/dotfiles/.vim ~/.vim`
+  `ln -s ~/dotfiles/.gitconfig ~/.gitconfig`
+  `ln -s ~/dotfiles/.gitignore ~/.gitignore`
+  `ln -s ~/dotfiles/.bash_profile ~/.bash_profile`
+
+### Installing Plugins
+
+  **Step 1:** Make sure you're in the root of the dotfiles directory.
+  **Step 2:** Type `git submodule init`. This registers the submodules.
+  **Step 3:** Type `git submodule update`. This checks out the version of the plugins that you have committed to the dotfiles.
+
+  Detailed Resource: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
 

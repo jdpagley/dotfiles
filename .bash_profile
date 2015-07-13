@@ -60,8 +60,6 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 alias dev="export NODE_ENV=development"
 alias stage="export NODE_ENV=staging"
 
-export PATH=/Users/admin/bin:$PATH
-
 # Expose Path To PostgreSQL utilities
 export PATH=../../Library/PostgreSQL/9.3/bin:$PATH
 
