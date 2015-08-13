@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/rename"]
 	path = .vim/bundle/rename
 	url = git@github.com:danro/rename.vim.git
+[submodule ".vim/bundle/stylus"]
+	path = .vim/bundle/stylus
+	url = git@github.com:wavded/vim-stylus.git
