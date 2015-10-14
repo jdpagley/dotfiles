@@ -1,5 +1,6 @@
 *.swp
 *.swo
 .netrwhist
+.elasticbeanstalk
 .DS_Store
 node_modules
