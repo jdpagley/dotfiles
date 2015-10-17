@@ -64,7 +64,7 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif  
 
 " Start NERDTree automatically when vim starts up
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 "Start NERDTree automatically when vim starts up and no file is specified
 autocmd StdinReadPre * let s:std_in=1
