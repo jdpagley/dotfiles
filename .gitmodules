@@ -19,6 +19,3 @@
 [submodule ".vim/bundle/stylus"]
 	path = .vim/bundle/stylus
 	url = git@github.com:wavded/vim-stylus.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
