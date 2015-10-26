@@ -14,12 +14,19 @@
 ### Installing Plugins
 
   **Fugitive:** `git clone git@github.com:tpope/vim-fugitive.git fugitive`
+
   **Ctrlp:** `git clone git@github.com:kien/ctrlp.vim.git ctrlp`
+
   **EditorConfig:** `git clone git@github.com:editorconfig/editorconfig-vim.git editorconfig`
+
   **JSON:** `git clone git@github.com:elzr/vim-json.git json`
+
   **Jade:** `git clone git@github.com:digitaltoad/vim-jade.git jade`
+
   **Rename:** `git clone git@github.com:danro/rename.vim.git rename`
+
   **Stylus:** `git clone git@github.com:wavded/vim-stylus.git stylus`
+
   **NERDtree:** `git clone https://github.com/scrooloose/nerdtree.git nerdtree`
 
 
