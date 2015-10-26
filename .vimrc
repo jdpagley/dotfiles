@@ -11,7 +11,6 @@ syntax on
 " Enable file type detection and do language-dependent indenting
 filetype plugin indent on
 
-
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -20,6 +19,10 @@ set splitright
 
 " Not compatible with vi
 set nocompatible
+
+" Copies the indentation from the previous line, when starting a new line.
+" More information about code indentation http://vim.wikia.com/wiki/Indenting_source_code
+set autoindent
 
 " Make backspace behave in a sane manner
 set backspace=indent,eol,start
@@ -49,11 +52,20 @@ nnoremap <C-K> <C-W><C-K> " Ctrl-K to move up a split
 nnoremap <C-L> <C-W><C-L> " Ctrl-L to move right a split
 nnoremap <C-H> <C-W><C-H> " Ctrl-H to move left a split
 
-" Run mocha tests for current test file
-map ,t :w\|:!mocha %
 
 " Split current line onto new line
 map <Return><Return> i<Return><Esc>
+
+" Place cursor correctly between brackets
+" Example:
+" function () {
+"   | <<< Cursor
+" }
+imap <C-Return> <CR><CR><C-o>k<Tab>
+
+" Add correct indentation for new line when using <Return>
+" Used with autoindent option
+imap <Return> o
 
 "======== NERDTree Config Start ========
 
