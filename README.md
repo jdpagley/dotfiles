@@ -17,6 +17,9 @@
 
 ### Installing Plugins
 
+  Make sure you're in the `.vim/bundle` directory before running clone commands.
+  Navigate to `bundle` directory by typing `cd .vim/bundle` when in the root of the `dotfiles` directory.
+
   **Fugitive:** `git clone git@github.com:tpope/vim-fugitive.git fugitive`
 
   **Ctrlp:** `git clone git@github.com:kien/ctrlp.vim.git ctrlp`
