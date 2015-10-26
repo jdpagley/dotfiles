@@ -13,10 +13,14 @@
 
 ### Installing Plugins
 
-  **Step 1:** Make sure you're in the root of the dotfiles directory.
-  **Step 2:** Type `git submodule init`. This registers the submodules.
-  **Step 3:** Type `git submodule update`. This checks out the version of the plugins that you have committed to the dotfiles.
+  **Fugitive:** `git clone git@github.com:tpope/vim-fugitive.git fugitive`
+  **Ctrlp:** `git clone git@github.com:kien/ctrlp.vim.git ctrlp`
+  **EditorConfig:** `git clone git@github.com:editorconfig/editorconfig-vim.git editorconfig`
+  **JSON:** `git clone git@github.com:elzr/vim-json.git json`
+  **Jade:** `git clone git@github.com:digitaltoad/vim-jade.git jade`
+  **Rename:** `git clone git@github.com:danro/rename.vim.git rename`
+  **Stylus:** `git clone git@github.com:wavded/vim-stylus.git stylus`
+  **NERDtree:** `git clone https://github.com/scrooloose/nerdtree.git nerdtree`
 
-  Detailed Resource: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
 
 
