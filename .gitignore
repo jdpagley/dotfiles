@@ -1,5 +1,13 @@
 *.swp
 *.swo
+*.swg
+*.swh
+*.swi
+*.swj
+*.swk
+*.swl
+*.swm
+*.swn
 .netrwhist
 .elasticbeanstalk
 .DS_Store
