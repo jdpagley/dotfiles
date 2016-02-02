@@ -61,7 +61,7 @@ alias dev="export NODE_ENV=development"
 alias stage="export NODE_ENV=staging"
 
 # Expose Path To PostgreSQL utilities
-export PATH=../../Library/PostgreSQL/9.3/bin:$PATH
+export PATH=~/../../Library/PostgreSQL/9.4/bin:$PATH
 
-export NVM_DIR="/Users/admin/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

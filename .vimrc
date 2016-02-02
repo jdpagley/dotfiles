@@ -72,6 +72,9 @@ nnoremap <C-H> <C-W><C-H> " Ctrl-H to move left a split
 " Split current line onto new line
 map <Return><Return> i<Return><Esc>
 
+" Search visually selected text
+vnoremap // y/<C-R>"<CR>
+
 "======== NERDTree Config Start ========
 
 " Open NERDTree
@@ -86,6 +89,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 "Start NERDTree automatically when vim starts up and no file is specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd VimEnter * let g:NERDTreeWinSize=45
 
 "Adjust NERDTree window size
 autocmd VimEnter * let g:NERDTreeWinSize=45
