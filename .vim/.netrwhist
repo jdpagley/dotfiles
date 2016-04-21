@@ -1,9 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/Josh/Documents/Shoflo/api.v2/models'
-let g:netrw_dirhist_2='/Users/Josh/Documents/Shoflo/app.v4'
-let g:netrw_dirhist_3='/Users/Josh/Documents/CollegeHunt/api.collegehunt.io'
-let g:netrw_dirhist_4='/Users/Josh/Downloads/Gravity/server'
-let g:netrw_dirhist_5='/Users/Josh/Documents/CollegeHunt/api.collegehunt.io'
-let g:netrw_dirhist_6='/Users/Josh/Documents/Shoflo/app.v4/server/views'
-let g:netrw_dirhist_7='/Users/Josh/Documents/Shoflo/app.v4'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/Josh/Documents/Shoflo/app.v4/node_modules'
+let g:netrw_dirhist_2='/Users/Josh/Documents/Shoflo/fosho.v2/node_modules'
+let g:netrw_dirhist_3='/Users/Josh/Documents/Shoflo/app.v4/node_modules'
+let g:netrw_dirhist_4='/Users/Josh/dotfiles'
+let g:netrw_dirhist_5='/Users/Josh/Documents/Shoflo/app.v4/node_modules'
+let g:netrw_dirhist_6='/Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules'

@@ -63,5 +63,9 @@ alias stage="export NODE_ENV=staging"
 # Expose Path To PostgreSQL utilities
 export PATH=~/../../Library/PostgreSQL/9.4/bin:$PATH
 
+# Export Android Home 
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

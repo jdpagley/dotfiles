@@ -14,6 +14,9 @@ set expandtab
 set splitbelow
 set splitright
 
+" Ignore case when searching 
+set ignorecase 
+
 " Not compatible with vi
 set nocompatible
 
