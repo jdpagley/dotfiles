@@ -50,6 +50,9 @@ set pastetoggle=<f5>
 " Endable Mouse Clicks In Vim (Used with NERDtree)
 set mouse=a
 
+" Change map for the <Leader>
+let mapleader=","
+
 " Status Line, :h statusline command  
 set laststatus=2                             " always show statusbar  
 set statusline=  
