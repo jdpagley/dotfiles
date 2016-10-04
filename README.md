@@ -36,5 +36,6 @@
 
   **NERDtree:** `git clone https://github.com/scrooloose/nerdtree.git nerdtree`
 
+  **System-Copy:** `git clone git@github.com:christoomey/vim-system-copy.git`
 
 

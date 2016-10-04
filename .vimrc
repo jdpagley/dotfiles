@@ -50,7 +50,10 @@ set pastetoggle=<f5>
 " Endable Mouse Clicks In Vim (Used with NERDtree)
 set mouse=a
 
-" Change map for the <Leader>
+" Copying to clipboard
+set clipboard=unnamed
+
+" Set <Leader> to <,>
 let mapleader=","
 
 " Status Line, :h statusline command  
