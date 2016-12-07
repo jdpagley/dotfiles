@@ -86,6 +86,9 @@ vnoremap // y/<C-R>"<CR>
 
 "======== NERDTree Config Start ========
 
+" Open NerdTreeTabs on startup
+let g:nerdtree_tabs_open_on_console_startup=1
+
 " Open NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
