@@ -84,6 +84,13 @@ map <Return><Return> i<Return><Esc>
 " Search visually selected text
 vnoremap // y/<C-R>"<CR>
 
+
+"======== CtrlP Config Start ========
+"
+let g:ctrlp_max_files=0
+
+"======== CtrlP Config End ========
+
 "======== NERDTree Config Start ========
 
 " Open NerdTreeTabs on startup
