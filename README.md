@@ -34,6 +34,8 @@
 
   **Stylus:** `git clone git@github.com:wavded/vim-stylus.git stylus`
 
+  **Coffee Script:** `git clone https://github.com/kchmck/vim-coffee-script.git`
+
   **NERDtree:** `git clone https://github.com/scrooloose/nerdtree.git nerdtree`
 
   **NERDtreeTabs:** `git clone https://github.com/jistr/vim-nerdtree-tabs.git nerdtreetabs`

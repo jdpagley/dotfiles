@@ -63,6 +63,9 @@ alias stage="export NODE_ENV=staging"
 # Expose Path To PostgreSQL utilities
 export PATH=~/../../Library/PostgreSQL/9.4/bin:$PATH
 
+# Setting path for MySQL executables 
+export PATH=${PATH}:/usr/local/mysql/bin
+
 # Export Android Home 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
@@ -74,3 +77,10 @@ export NVM_DIR="$HOME/.nvm"
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+

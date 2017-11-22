@@ -1,6 +1,5 @@
 " Load Plugins
-call pathogen#infect()
-call pathogen#helptags()
+ call pathogen#infect()
 
 " Colorscheme
 colorscheme aloe
