@@ -2,7 +2,6 @@
  call pathogen#infect()
 
 " Colorscheme
-" colorscheme aloe
 
 set background=dark
 colorscheme gruvbox

@@ -33,6 +33,8 @@
 
   **Fugitive:** `git clone git@github.com:tpope/vim-fugitive.git fugitive`
 
+  **Polygot (Enhanced Syntax Highlighting):** `git clone https://github.com/sheerun/vim-polyglot.git`
+
   **Ctrlp:** `git clone git@github.com:kien/ctrlp.vim.git ctrlp`
 
   **EditorConfig:** `git clone git@github.com:editorconfig/editorconfig-vim.git editorconfig`
