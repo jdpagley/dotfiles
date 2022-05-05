@@ -15,6 +15,17 @@
 
 *  `ln -s ~/dotfiles/.bash_profile ~/.bash_profile`
 
+## Vim Package Loading
+
+* I use pathogen for package loading: `https://github.com/tpope/vim-pathogen.`
+
+## Theme
+
+  Make sure you're in the `.vim/bundle` directory before running clone commands.
+  Navigate to `bundle` directory by typing `cd .vim/bundle` when in the root of the `dotfiles` directory.
+
+  **Gruvbox** `git clone https://github.com/morhetz/gruvbox.git`;
+
 ### Installing Plugins
 
   Make sure you're in the `.vim/bundle` directory before running clone commands.

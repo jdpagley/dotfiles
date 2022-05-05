@@ -59,6 +59,7 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 # ENV
 alias dev="export NODE_ENV=development"
 alias stage="export NODE_ENV=staging"
+alias mongod="mongod --config /usr/local/etc/mongod.conf"
 
 # Expose Path To PostgreSQL utilities
 export PATH=~/../../Library/PostgreSQL/9.4/bin:$PATH
@@ -74,13 +75,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-# Setting PATH for Python 2.7
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
 
+export PATH="/usr/local/opt/mongodb-community@4.0/bin:$PATH"
 
+export path

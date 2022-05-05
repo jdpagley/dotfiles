@@ -2,7 +2,10 @@
  call pathogen#infect()
 
 " Colorscheme
-colorscheme aloe
+" colorscheme aloe
+
+set background=dark
+colorscheme gruvbox
 
 " Switch syntax highlighting on
 syntax on
