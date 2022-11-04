@@ -3,8 +3,8 @@
 
 " Colorscheme
 
-set background=dark
-colorscheme gruvbox
+ set background=dark
+ colorscheme gruvbox
 
 " Switch syntax highlighting on
 syntax on
